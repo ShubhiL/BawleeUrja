@@ -28,7 +28,8 @@ public class AfterLogIn extends AppCompatActivity {
         ImageView i1= (ImageView) findViewById(R.id.i1);
         ImageView i2= (ImageView) findViewById(R.id.i2);
         ImageView i3= (ImageView) findViewById(R.id.i3);
-
+        
+//Making each button clickable and jumping to new activities accordingly
         i1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
